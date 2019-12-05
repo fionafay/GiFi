@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Desktop HD */
+@media all and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* Desktop */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* iPad / Tablets */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* Phone */
+@media all and (max-width: 767px) {
+    .container {
+        max-width: 640px;
+    }
+}

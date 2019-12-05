@@ -1,0 +1,60 @@
+@import "reset";
+@import "common";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+body, input {
+  font-family: "Open Sans", -apple-system, sans-serif;
+}
+
+body > .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.search-container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #b08a25;
+  }
+
+  #search-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    background: #f4f4f4;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+  }
+}
+
+.results-container {
+  max-width: 100%;
+  margin: 1rem auto;
+  height: 200px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+
+  img {
+    width: auto;
+    height: 100%;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+}
