@@ -10,7 +10,7 @@ searchInput.onkeydown = function (event) {
     }
 };
 
-let apiEndpoint = 'http://api.giphy.com/v1/gifs/search?api_key=TqhxF5Dh1N5rAl6CihLvVIXYEmDdjH1I&limit=10&q=';
+let apiEndpoint = 'https://api.giphy.com/v1/gifs/search?api_key=TqhxF5Dh1N5rAl6CihLvVIXYEmDdjH1I&limit=10&q=';
 
 function search(query) {
     // perform fetch to api
